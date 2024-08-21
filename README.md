@@ -1,5 +1,35 @@
-# Vue 3 + TypeScript + Vite
+Инструкция по запуску проекта.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. Скачайте проект на Ваш локальный компьютер.
+2. Для запуска откройте терминал и введите команду.
+ 
+Для Linux
+sudo docker-compose up
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Для Windows
+............
+Для MacOs
+............
+После запуска, в терминале появится адрес рядом с network.
+Скопируйте его и откройте в браузере. 
+
+Для отключения проекта введите команду
+
+Для Linux
+sudo docker-compose down
+
+Для Windows
+............
+Для MacOs
+............
+
+После, надо удалить все образы.
+Для удаления введите команду
+
+Для Linux
+sudo docker system prune -a.
+
+Для Windows
+............
+Для MacOs
+............
