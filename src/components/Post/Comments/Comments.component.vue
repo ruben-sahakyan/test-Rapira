@@ -38,7 +38,7 @@ const commentsCount = computed(() => {
     <section class="w-full min-h-[100px] mt-2.5">
         <div class="w-full h-[16px] flex items-center gap-1.5">
             <h3 class="text-base font-semibold leading-4">Комментариев</h3>
-            <p>{{ commentsCount }}</p>
+            <p class="text-[#7e8299]">{{ commentsCount }}</p>
         </div>
 
         <div @click="() => commentActive = true" class="mt-2.5 mb-1 w-full min-h-[52px] rounded-md py-[10px] px-[15px]
