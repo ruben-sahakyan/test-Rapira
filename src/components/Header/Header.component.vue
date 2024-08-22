@@ -35,7 +35,6 @@ watch(width.browserWidth, (newSize, oldSize) => {
                 <li v-for="menuItem of store.menu">
                     <RouterLink class="text-white h-8 py-2 px-3.5 flex items-center justify-center rounded-md
                     text-base font-semibold leading-4 hover:text-text-color-third"
-                    activeClass="bg-white bg-opacity-10 text-[#3e97ff]" 
                     :to="`/${menuItem.name}`">{{ menuItem.showName }}</RouterLink>
                 </li>
             </ul>
@@ -51,4 +50,7 @@ watch(width.browserWidth, (newSize, oldSize) => {
 </template>
 
 <style scoped lang="sass">
+.router-link-exact-active
+    background-color: rgba(255, 255, 255, 0.1)
+    color: rgba(62, 151, 255, 1)
 </style>
